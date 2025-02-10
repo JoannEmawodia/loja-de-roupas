@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lojas Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <div class="container">
+    <div>
         <header>
             <h1>Loja de Roupas</h1>
             <div>
-                <a href="#">Sobre a loja</a>
-                <a href="#">Produtos</a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Sobre a loja</a>                    
+                        </li>
+                        <li>
+                            <a href="#">Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
     </div>
@@ -19,37 +31,39 @@
         <main>
             <section>
                 <h2>Sobre a loja</h2>
-                <article>
+                <article id="sobre-a-loja">
                     <img src="./imagens/loja.webp" alt="Loja de Roupas" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rerum quos fugiat reprehenderit minima unde eveniet ipsam nam odit autem beatae id, error reiciendis est sequi numquam enim dolorum saepe.</p>
                 </article>
             </section>
             <section>
                 <h2>Produtos</h2>
-                <article>
-                    <img src="./imagens/blusa.webp" alt="Blusa preta" />
-                    <h3>Blusa</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
-                    <button type="button">adicionar ao carrinho</button>
-                </article>
-                <article>
-                    <img src="./imagens/saia.jpg" alt="Saia com franjas" />
-                    <h3>Saia</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
-                    <button type="button">adicionar ao carrinho</button>
-                </article>
-                <article>
-                    <img src="./imagens/shorts.jpg" alt="Shorts Jeans" />
-                    <h3>Shorts</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
-                    <button type="button">adicionar ao carrinho</button>
-                </article>
-                <article>
-                    <img src="./imagens/vestido.jpg" alt="Vestido de Informal" />
-                    <h3>Vestido</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
-                    <button type="button">adicionar ao carrinho</button>
-                </article>
+                <div id="produtos">
+                    <article>
+                        <img src="./imagens/blusa.webp" alt="Blusa preta" />
+                        <h3>Blusa</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
+                        <button type="button">adicionar ao carrinho</button>
+                    </article>
+                    <article>
+                        <img src="./imagens/saia.jpg" alt="Saia com franjas" />
+                        <h3>Saia</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
+                        <button type="button">adicionar ao carrinho</button>
+                    </article>
+                    <article>
+                        <img src="./imagens/shorts.jpg" alt="Shorts Jeans" />
+                        <h3>Shorts</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
+                        <button type="button">adicionar ao carrinho</button>
+                    </article>
+                    <article>
+                        <img src="./imagens/vestido.jpg" alt="Vestido de Informal" />
+                        <h3>Vestido</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eos aut distinctio sunt odio doloribus possimus repellat blanditiis nostrum earum ex sapiente voluptatibus dignissimos quis nesciunt quisquam facere! Minus, quae.</p>
+                        <button type="button">adicionar ao carrinho</button>
+                    </article>
+                </div>
             </section>
         </main>        
     </div>
