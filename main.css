@@ -41,11 +41,19 @@ h2 {
     padding: 10px;
 }
 
+.descrição h2{
+    
+    padding: 2px solid black;
+}
+
 #sobre-a-loja {
     display:flex;
 }
+
 #sobre-a-loja img{
     max-width: 400px;
+    padding-right: 30px;
+    margin-top: 50px;
 }
 
 #produtos img{
@@ -57,5 +65,21 @@ h2 {
 
 #produtos{
     display: grid;
-    grid-template-columns: repeat(4, 22%);
+    grid-template-columns: repeat(4, 25%);
+    margin-bottom: 30px;
+}
+
+#produtos button {
+    background-color:rgb(204, 64, 64);
+    color:#fff;
+    padding: 6px;
+    margin-top: 8px;
+    border: none;
+    border-top: 3px solid black;
+}
+
+#produtos button:hover{
+    cursor: pointer;
+    background-color:#fff;
+    color:black;
 }
